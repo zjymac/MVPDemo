@@ -13,7 +13,7 @@ import com.example.a58.mvpdemo.R;
 
 public class MainActivity extends Activity implements LoginView {
     private EditText t1, t2;
-    private Button btn,hh;
+    private Button btn;
     private LoginPresenter loginPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
